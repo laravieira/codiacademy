@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../.idea/CodyAcademy.iml" filepath="$PROJECT_DIR$/../.idea/CodyAcademy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../.idea/CodiAcademy.iml" filepath="$PROJECT_DIR$/../.idea/CodiAcademy.iml" />
     </modules>
   </component>
 </project>
