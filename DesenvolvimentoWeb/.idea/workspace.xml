@@ -4,20 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d3f17fc-bac7-4c33-ac11-7482e4929c5c" name="Changes" comment="Followed classes 3 to 5 of module 3.">
-      <change afterPath="$PROJECT_DIR$/FrontendCompleto/Modulo3/Aula6-11/assets/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FrontendCompleto/Modulo3/Aula6-11/assets/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FrontendCompleto/Modulo3/Aula6-11/assets/img/logomarca.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FrontendCompleto/Modulo3/Aula6-11/assets/img/thumb1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FrontendCompleto/Modulo3/Aula6-11/assets/img/thumb2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FrontendCompleto/Modulo3/Aula6-11/assets/img/thumb3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FrontendCompleto/Modulo3/Aula6-11/assets/img/thumb4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FrontendCompleto/Modulo3/Aula6-11/assets/img/thumb5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FrontendCompleto/Modulo3/Aula6-11/assets/img/thumb6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FrontendCompleto/Modulo3/Aula6-11/assets/img/thumb7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FrontendCompleto/Modulo3/Aula6-11/assets/img/thumb8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FrontendCompleto/Modulo3/Aula6-11/index.html" afterDir="false" />
+    <list default="true" id="3d3f17fc-bac7-4c33-ac11-7482e4929c5c" name="Changes" comment="Followed class 6 of module 3.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontendCompleto/Modulo3/Aula6-11/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/FrontendCompleto/Modulo3/Aula6-11/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontendCompleto/Modulo3/Aula6-11/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/FrontendCompleto/Modulo3/Aula6-11/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +65,7 @@
       <updated>1659892176906</updated>
       <workItem from="1659892178941" duration="91000" />
       <workItem from="1659892280081" duration="10000" />
-      <workItem from="1659892344991" duration="11950000" />
+      <workItem from="1659892344991" duration="13433000" />
     </task>
     <task id="LOCAL-00001" summary="Reset idea settings.">
       <created>1659892448545</created>
@@ -154,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659905642030</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Followed class 6 of module 3.">
+      <created>1659908994353</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1659908994353</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,6 +183,7 @@
     <MESSAGE value="Followed class 2 of module 3." />
     <MESSAGE value="Followed class 3 of module 3." />
     <MESSAGE value="Followed classes 3 to 5 of module 3." />
-    <option name="LAST_COMMIT_MESSAGE" value="Followed classes 3 to 5 of module 3." />
+    <MESSAGE value="Followed class 6 of module 3." />
+    <option name="LAST_COMMIT_MESSAGE" value="Followed class 6 of module 3." />
   </component>
 </project>

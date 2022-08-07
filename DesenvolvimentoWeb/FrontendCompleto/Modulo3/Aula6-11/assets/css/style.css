@@ -2,104 +2,114 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
-    width: 80%;
-    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+    background: rgba(33, 33, 33, 0.98);
+    z-index: 1;
+    position: relative;
+}
+
+i {
+    cursor: pointer;
+    color: white;
 }
 
 .navbar {
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    height: 55px;
+    padding: 5px 15px;
+    margin: 0 0 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 25px 0;
+    z-index: 5;
 }
 
-.navbar .logo {
-    width: 150px;
+.navbar .logo,
+.navbar .search,
+.navbar .icons {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .logo i {
+    font-size: 24px;
+    margin: 0 20px 0 10px;
 }
 
 .navbar .logo img {
-    width: 100%;
+    width: 100px;
+    cursor: pointer;
 }
 
-.navbar .links ul {
-    list-style: none;
-    display: flex;
+.navbar .search {
+    height: 30px;
 }
 
-.navbar .links ul li {
-    margin-left: 35px;
+.navbar .search input {
+    width: 570px;
+    height: 100%;
+    padding-left: 10px;
+    font-size: 16px;
+    border: 1px solid gray;
+    border-radius: 2px;
+    outline: none;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
 }
 
-.navbar .links ul li a {
-    text-decoration: none;
-    color: gray;
-    font-size: 18px;
+.navbar .search input:focus {
+    border-color: rgb(32, 32, 223);
 }
 
-.navbar .links ul li a:hover,
-.navbar .links ul li a:focus {
-    color: #E8505B;
-}
-
-/* My soul requires this */
-.navbar .links ul li a span::before {
-    content: " (";
-}
-
-.navbar .links ul li a span::after {
-    content: ")";
-}
-/* End of my soul requirements */
-
-.container {
-    padding: 50px 0 0;
+.navbar .search .searchbtn {
+    width: 50px;
+    height: 100%;
+    background: gray;
+    margin-right: 15px;
     display: flex;
     align-items: center;
-    width: 100%;
+    justify-content: center;
+    border-radius: 0 1px 1px 0;
 }
 
-.container .text,
-.container .photo {
-    width: 50%;
+.navbar .search .searchbtn {
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.5);
 }
 
-.container .text h1 {
-    font-size: 55px;
-    font-weight: 600;
+.navbar .icons i {
+    margin-right: 25px;
+    font-size: 25px;
 }
 
-.container .text h1 span {
-    font-weight: 400;
-}
-
-.container .text p {
-    width: 85%;
-    font-size: 17px;
-    margin: 25px 0;
-    color: gray;
-}
-
-.container .text button {
-    padding: 15px 30px;
-    font-size: 20px;
-    outline: none;
-    border: none;
-    border-radius: 8px;
-    background: #E8505B;
-    color: white;
+.navbar .icons .notification {
+    position: relative;
     cursor: pointer;
-    transition: 200ms background-color;
 }
 
-.container .text button:hover,
-.container .text button:focus {
-    background-color: #BB444C;
+.navbar .icons .notification span[data-count]::after {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    inset: -8px 15px auto auto;
+    content: attr(data-count);
+    font-size: 14px;
+    padding: 2px;
+    border-radius: 50%;
+    color: white;
+    background: #D11811;
+    text-align: center;
 }
 
-.container .photo img {
-    width: 520px;
+.navbar .icons img {
+    width: 35px;
+    cursor: pointer;
+    margin-right: 10px;
 }
