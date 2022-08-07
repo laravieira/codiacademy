@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d3f17fc-bac7-4c33-ac11-7482e4929c5c" name="Changes" comment="Followed class 9 of module 3.">
+    <list default="true" id="3d3f17fc-bac7-4c33-ac11-7482e4929c5c" name="Changes" comment="Followed class 10 of module 3.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontendCompleto/Modulo3/Aula6-11/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/FrontendCompleto/Modulo3/Aula6-11/assets/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FrontendCompleto/Modulo3/Aula6-11/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/FrontendCompleto/Modulo3/Aula6-11/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +65,7 @@
       <updated>1659892176906</updated>
       <workItem from="1659892178941" duration="91000" />
       <workItem from="1659892280081" duration="10000" />
-      <workItem from="1659892344991" duration="16253000" />
+      <workItem from="1659892344991" duration="17998000" />
     </task>
     <task id="LOCAL-00001" summary="Reset idea settings.">
       <created>1659892448545</created>
@@ -171,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659912142803</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Followed class 10 of module 3.">
+      <created>1659913272936</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1659913272936</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,6 +215,7 @@
     <MESSAGE value="Followed class 7 of module 3." />
     <MESSAGE value="Followed class 8 of module 3." />
     <MESSAGE value="Followed class 9 of module 3." />
-    <option name="LAST_COMMIT_MESSAGE" value="Followed class 9 of module 3." />
+    <MESSAGE value="Followed class 10 of module 3." />
+    <option name="LAST_COMMIT_MESSAGE" value="Followed class 10 of module 3." />
   </component>
 </project>
