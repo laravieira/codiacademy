@@ -1,0 +1,18 @@
+body {
+    background: ghostwhite;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 18px;
+}
+
+#blue {
+    color: cornflowerblue;
+}
+
+#orange {
+    color: orange;
+}
