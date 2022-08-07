@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d3f17fc-bac7-4c33-ac11-7482e4929c5c" name="Changes" comment="Followed class 2 of module 2.">
-      <change afterPath="$PROJECT_DIR$/FrontendCompleto/Modulo2/Aula3/assets/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FrontendCompleto/Modulo2/Aula3/index.html" afterDir="false" />
+    <list default="true" id="3d3f17fc-bac7-4c33-ac11-7482e4929c5c" name="Changes" comment="Followed class 3 of module 2.">
+      <change afterPath="$PROJECT_DIR$/FrontendCompleto/Modulo2/Aula4/assets/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontendCompleto/Modulo2/Aula4/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontendCompleto/Modulo2/Aula3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/FrontendCompleto/Modulo2/Aula3/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +19,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="2D2LLCG88jP14jaz3SDDn0NYxWf" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -50,7 +53,7 @@
       <updated>1659892176906</updated>
       <workItem from="1659892178941" duration="91000" />
       <workItem from="1659892280081" duration="10000" />
-      <workItem from="1659892344991" duration="1666000" />
+      <workItem from="1659892344991" duration="2189000" />
     </task>
     <task id="LOCAL-00001" summary="Reset idea settings.">
       <created>1659892448545</created>
@@ -66,7 +69,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659894922746</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Followed class 3 of module 2.">
+      <created>1659895421114</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1659895421114</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,6 +99,7 @@
     </ignored-roots>
     <MESSAGE value="Reset idea settings." />
     <MESSAGE value="Followed class 2 of module 2." />
-    <option name="LAST_COMMIT_MESSAGE" value="Followed class 2 of module 2." />
+    <MESSAGE value="Followed class 3 of module 2." />
+    <option name="LAST_COMMIT_MESSAGE" value="Followed class 3 of module 2." />
   </component>
 </project>

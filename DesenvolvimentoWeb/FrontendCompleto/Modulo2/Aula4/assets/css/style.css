@@ -1,0 +1,10 @@
+body {
+    background: ghostwhite;
+}
+
+div {
+    background: cornflowerblue;
+    margin: 10px;
+    width: 800px;
+    height: 400px;
+}
