@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d3f17fc-bac7-4c33-ac11-7482e4929c5c" name="Changes" comment="Followed class 7 of module 3.">
+    <list default="true" id="3d3f17fc-bac7-4c33-ac11-7482e4929c5c" name="Changes" comment="Followed class 8 of module 3.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontendCompleto/Modulo3/Aula6-11/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/FrontendCompleto/Modulo3/Aula6-11/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontendCompleto/Modulo3/Aula6-11/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/FrontendCompleto/Modulo3/Aula6-11/assets/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +64,7 @@
       <updated>1659892176906</updated>
       <workItem from="1659892178941" duration="91000" />
       <workItem from="1659892280081" duration="10000" />
-      <workItem from="1659892344991" duration="14516000" />
+      <workItem from="1659892344991" duration="15141000" />
     </task>
     <task id="LOCAL-00001" summary="Reset idea settings.">
       <created>1659892448545</created>
@@ -157,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659910508355</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Followed class 8 of module 3.">
+      <created>1659911516208</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1659911516208</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,6 +198,7 @@
     <MESSAGE value="Followed classes 3 to 5 of module 3." />
     <MESSAGE value="Followed class 6 of module 3." />
     <MESSAGE value="Followed class 7 of module 3." />
-    <option name="LAST_COMMIT_MESSAGE" value="Followed class 7 of module 3." />
+    <MESSAGE value="Followed class 8 of module 3." />
+    <option name="LAST_COMMIT_MESSAGE" value="Followed class 8 of module 3." />
   </component>
 </project>
