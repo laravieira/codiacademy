@@ -1,7 +1,7 @@
 # Codi Academy Courses Resolutions
 ###### This is the resolutions of all courses @laravieira did.
 
-##Summary of resolutions
+## Summary of resolutions
 - [Desenvolvimento Web](DesenvolvimentoWeb)
   - [Introdução ao Frontend](DesenvolvimentoWeb/IntroducaoAoFrontend)
   - [Frontend Completo](DesenvolvimentoWeb/FrontendCompleto)
