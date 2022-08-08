@@ -25,12 +25,12 @@
       - [Aula 4: Box Model](DesenvolvimentoWeb/FrontendCompleto/Modulo2/Aula04) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Modulo2/Aula04))
       - [Aula 5: Margin](DesenvolvimentoWeb/FrontendCompleto/Modulo2/Aula05) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Modulo2/Aula05))
       - [Aula 7: Fonts](DesenvolvimentoWeb/FrontendCompleto/Modulo2/Aula07) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Modulo2/Aula07))
-    - [Práticas em HTML+CSS 🤝](DesenvolvimentoWeb/FrontendCompleto/Modulo3)
-      - [Aulão: Criando uma Tela de Login](DesenvolvimentoWeb/FrontendCompleto/Modulo3/Aula01) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Modulo3/Aula01))
-      - [Aulão: Criando a Landing Page da Netflix](DesenvolvimentoWeb/FrontendCompleto/Modulo3/Aula02) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Modulo3/Aula02))
-      - [Criando um Site Completo (parte 1-3)](DesenvolvimentoWeb/FrontendCompleto/Modulo3/Aula03-05) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Modulo3/Aula03-05))
-      - [Criando o Youtube (parte 1-3 HTML/CSS)](DesenvolvimentoWeb/FrontendCompleto/Modulo3/Aula06-11) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Modulo3/Aula06-11))
-      - [Aulão Criando o Google](DesenvolvimentoWeb/FrontendCompleto/Modulo3/Aula12) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Modulo3/Aula12))
+    - [Práticas em HTML+CSS 🤝](DesenvolvimentoWeb/FrontendCompleto/Practice1)
+      - [Aulão: Criando uma Tela de Login](DesenvolvimentoWeb/FrontendCompleto/Practice1/Aula01) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Practice1/Aula01))
+      - [Aulão: Criando a Landing Page da Netflix](DesenvolvimentoWeb/FrontendCompleto/Practice1/Aula02) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Practice1/Aula02))
+      - [Criando um Site Completo (parte 1-3)](DesenvolvimentoWeb/FrontendCompleto/Practice1/Aula03-05) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Practice1/Aula03-05))
+      - [Criando o Youtube (parte 1-3 HTML/CSS)](DesenvolvimentoWeb/FrontendCompleto/Practice1/Aula06-11) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Practice1/Aula06-11))
+      - [Aulão Criando o Google](DesenvolvimentoWeb/FrontendCompleto/Practice1/Aula12) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Practice1/Aula12))
 
 ## Rights Disclaimer
 All content on this repo is created by @laravieira follow the classes of the respective courses on [Codi Academy](https://codiacademy.com/).
