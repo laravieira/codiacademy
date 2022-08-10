@@ -1,7 +1,7 @@
 # Codi Academy Courses Resolutions
 ###### This is the resolutions of all courses @laravieira did.
 All the content here is the resolutions of the courses and exercises of [Codi Academy](https://codiacademy.com/) school.
-This content is made by @me alone.
+This content is made by @laravieira alone.
 
 Some exercises have live preview available.
 
