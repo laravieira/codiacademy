@@ -1,5 +1,11 @@
 # Codi Academy Courses Resolutions
 ###### This is the resolutions of all courses @laravieira did.
+All the content here is the resolutions of the courses and exercises of [Codi Academy](https://codiacademy.com/) school.
+This content is made by @me alone.
+
+Some exercises have live preview available.
+
+The structure of this summary is based the [Codi Academy](https://codiacademy.com/) show of structure of their courses.
 
 ## Summary of resolutions
 - [Desenvolvimento Web](DesenvolvimentoWeb)
@@ -31,6 +37,22 @@
       - [Criando um Site Completo (parte 1-3)](DesenvolvimentoWeb/FrontendCompleto/Practice1/Aula03-05) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Practice1/Aula03-05))
       - [Criando o Youtube (parte 1-3 HTML/CSS)](DesenvolvimentoWeb/FrontendCompleto/Practice1/Aula06-11) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Practice1/Aula06-11))
       - [Aulão Criando o Google](DesenvolvimentoWeb/FrontendCompleto/Practice1/Aula12) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Practice1/Aula12))
+    - [Módulo 3: JavaScript 🫀](DesenvolvimentoWeb/FrontendCompleto/Modulo3)
+      - [Instalando o Ambiente](DesenvolvimentoWeb/FrontendCompleto/Modulo3/Aula00) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Modulo3/Aula00))
+      - [Aula 1: Variáveis](DesenvolvimentoWeb/FrontendCompleto/Modulo3/Aula01) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Modulo3/Aula01))
+      - [Aula 2: Operadores Aritméticos](DesenvolvimentoWeb/FrontendCompleto/Modulo3/Aula02) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Modulo3/Aula02))
+      - [Aula 3: Operadores Condicionais](DesenvolvimentoWeb/FrontendCompleto/Modulo3/Aula03) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Modulo3/Aula03))
+      - [Aula 4: IF e Else	](DesenvolvimentoWeb/FrontendCompleto/Modulo3/Aula04) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Modulo3/Aula04))
+      - [Aula 5: Lógica Booleana](DesenvolvimentoWeb/FrontendCompleto/Modulo3/Aula05) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Modulo3/Aula05))
+      - [Aula 6: Funções](DesenvolvimentoWeb/FrontendCompleto/Modulo3/Aula06) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Modulo3/Aula06))
+      - [Aula 7: Objetos](DesenvolvimentoWeb/FrontendCompleto/Modulo3/Aula07) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Modulo3/Aula07))
+      - [Aula 8: Métodos](DesenvolvimentoWeb/FrontendCompleto/Modulo3/Aula08) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Modulo3/Aula08))
+      - [Aula 9: While](DesenvolvimentoWeb/FrontendCompleto/Modulo3/Aula09) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Modulo3/Aula09))
+      - [Aula 10: Continue e Break](DesenvolvimentoWeb/FrontendCompleto/Modulo3/Aula10) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Modulo3/Aula10))
+      - [Aula 11: For](DesenvolvimentoWeb/FrontendCompleto/Modulo3/Aula11) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Modulo3/Aula11))
+      - [Aula 12: Arrays](DesenvolvimentoWeb/FrontendCompleto/Modulo3/Aula12) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Modulo3/Aula12))
+      - [Aula 13: Operações com Arrays](DesenvolvimentoWeb/FrontendCompleto/Modulo3/Aula13) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Modulo3/Aula13))
+      - [Aula 14: Matrizes](DesenvolvimentoWeb/FrontendCompleto/Modulo3/Aula14) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Modulo3/Aula14))
 
 ## Rights Disclaimer
 All content on this repo is created by @laravieira follow the classes of the respective courses on [Codi Academy](https://codiacademy.com/).

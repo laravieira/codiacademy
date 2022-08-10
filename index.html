@@ -1,13 +1,79 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta property="og:url" content="https://codi.laravieira.me">
+    <meta property="og:title" content="Codi Academy Root Page">
+    <meta property="og:description" content="Codi Academy courses resolution live site.">
+    <meta property="og:image" content="https://laravieira.me/img/logo.png">
+    <meta property="og:type" content="website">
+    <meta property="og:locate" content="pt_br">
     <title>Codi Academy Root Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: Roboto, sans-serif;
+            text-decoration: none;
+            color: #d5d4d4;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            color: #842ed3;
+        }
+
+        a, a:visited {
+            line-height: 1.6em;
+            color: #c362c5;
+        }
+
+        a:hover, a:focus {
+            text-decoration: underline;
+        }
+
+        body {
+            background: #282828;
+        }
+
+        div#content {
+            width: 80vw;
+            margin: 50px auto 200px;
+            max-width: 920px;
+        }
+
+        @media only screen and (max-width: 720px) {
+            div#content {
+                margin: 50px 15px 150px;
+                width: auto;
+            }
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello World</h1>
+    <div id="content"></div>
+    <script src="https://cdn.jsdelivr.net/npm/showdown@2.1.0/dist/showdown.min.js"></script>
+    <script>
+        function showReadMe(text) {
+            const converter = new showdown.Converter();
+            converter.setFlavor('github');
+            document.getElementById("content").innerHTML = converter.makeHtml(text);
+        }
+
+        function loadReadMe() {
+            const request = new XMLHttpRequest();
+            request.open('GET', 'https://raw.githubusercontent.com/laravieira/codiacademy/master/README.md');
+            request.send(null);
+            request.onreadystatechange = () => {
+                if(request.readyState === 4 && request.status === 200
+                && request.getResponseHeader('Content-Type') === 'text/plain; charset=utf-8')
+                    showReadMe(request.responseText);
+            };
+        }
+
+        window.onload = loadReadMe;
+    </script>
 </body>
 </html>
