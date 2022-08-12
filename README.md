@@ -42,7 +42,7 @@ The structure of this summary is based the [Codi Academy](https://codiacademy.co
       - [Aula 1: Variáveis](DesenvolvimentoWeb/FrontendCompleto/Modulo3/Aula01) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Modulo3/Aula01))
       - [Aula 2: Operadores Aritméticos](DesenvolvimentoWeb/FrontendCompleto/Modulo3/Aula02) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Modulo3/Aula02))
       - [Aula 3: Operadores Condicionais](DesenvolvimentoWeb/FrontendCompleto/Modulo3/Aula03) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Modulo3/Aula03))
-      - [Aula 4: IF e Else	](DesenvolvimentoWeb/FrontendCompleto/Modulo3/Aula04) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Modulo3/Aula04))
+      - [Aula 4: IF e Else](DesenvolvimentoWeb/FrontendCompleto/Modulo3/Aula04) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Modulo3/Aula04))
       - [Aula 5: Lógica Booleana](DesenvolvimentoWeb/FrontendCompleto/Modulo3/Aula05) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Modulo3/Aula05))
       - [Aula 6: Funções](DesenvolvimentoWeb/FrontendCompleto/Modulo3/Aula06) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Modulo3/Aula06))
       - [Aula 7: Objetos](DesenvolvimentoWeb/FrontendCompleto/Modulo3/Aula07) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Modulo3/Aula07))
@@ -53,6 +53,7 @@ The structure of this summary is based the [Codi Academy](https://codiacademy.co
       - [Aula 12: Arrays](DesenvolvimentoWeb/FrontendCompleto/Modulo3/Aula12) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Modulo3/Aula12))
       - [Aula 13: Operações com Arrays](DesenvolvimentoWeb/FrontendCompleto/Modulo3/Aula13) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Modulo3/Aula13))
       - [Aula 14: Matrizes](DesenvolvimentoWeb/FrontendCompleto/Modulo3/Aula14) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Modulo3/Aula14))
+    - [Práticas em HTML+CSS+JS 📂](DesenvolvimentoWeb/FrontendCompleto/Practice2) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Practice2))
 
 ## Rights Disclaimer
 All content on this repo is created by @laravieira follow the classes of the respective courses on [Codi Academy](https://codiacademy.com/).

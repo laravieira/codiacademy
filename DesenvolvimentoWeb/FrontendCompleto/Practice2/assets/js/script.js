@@ -24,14 +24,8 @@ let app = {
     },
 
     verifica_resposta: (i) => {
-        if(i === this.pergunta.correta) {
-            console.log("Voce acertou.");
-            this.pontos++;
-        }else {
-            console.log("Voce errou.");
-            this.pontos--;
-        }
-        app.atualiza_pontos();
+        app.mostra_resposta(i);
+        app.atualiza_pontos(i);
         app.proxima_pergunta();
     },
 
@@ -41,8 +35,10 @@ let app = {
         app.mostra_pergunta(perguntas[this.pergunta_atual])
     },
 
-    atualiza_pontos: () => {
+    atualiza_pontos: (i) => {
         let score = document.getElementById('pontos');
+        if(i === this.pergunta.correta)
+            this.pontos++;
         score.textContent = `Sua pontuação é ${this.pontos} pontos.`;
     },
 
@@ -59,6 +55,17 @@ let app = {
         document.querySelectorAll('.alternativa').forEach(
             (element, i) => element.textContent = this.pergunta.alternativas[i]
         );
+    },
+
+    mostra_resposta: (index) => {
+        let result = document.getElementById('resposta');
+
+        if(index === this.pergunta.correta)
+            result.textContent = 'Você Acertou! Continue assim!!';
+        else {
+            let answer = this.pergunta.alternativas[this.pergunta.correta];
+            result.innerHTML = `Ahhh, não foi dessa vez! A resposta era <b>${answer}</b>.`;
+        }
     }
 }
 
