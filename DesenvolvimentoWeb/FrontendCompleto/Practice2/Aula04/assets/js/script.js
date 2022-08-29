@@ -8,4 +8,3 @@ function navScrollingToggle() {
 }
 
 window.onscroll = navScrollingToggle;
-window.onload = navScrollingToggle;
