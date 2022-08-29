@@ -53,7 +53,9 @@ The structure of this summary is based the [Codi Academy](https://codiacademy.co
       - [Aula 12: Arrays](DesenvolvimentoWeb/FrontendCompleto/Modulo3/Aula12) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Modulo3/Aula12))
       - [Aula 13: Operações com Arrays](DesenvolvimentoWeb/FrontendCompleto/Modulo3/Aula13) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Modulo3/Aula13))
       - [Aula 14: Matrizes](DesenvolvimentoWeb/FrontendCompleto/Modulo3/Aula14) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Modulo3/Aula14))
-    - [Práticas em HTML+CSS+JS 📂](DesenvolvimentoWeb/FrontendCompleto/Practice2) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Practice2))
+    - [Práticas em HTML+CSS+JS 📂](DesenvolvimentoWeb/FrontendCompleto/Practice2)
+      - [Recriando o Duolingo (partes 1-3)](DesenvolvimentoWeb/FrontendCompleto/Practice2/Aula01-03) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Practice2/Aula01-03))
+      - [Recriando a Netflix](DesenvolvimentoWeb/FrontendCompleto/Practice2/Aula04) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Practice2/Aula04))
 
 ## Rights Disclaimer
 All content on this repo is created by @laravieira follow the classes of the respective courses on [Codi Academy](https://codiacademy.com/).
