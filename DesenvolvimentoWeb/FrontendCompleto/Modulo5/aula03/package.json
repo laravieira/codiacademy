@@ -1,8 +1,8 @@
 {
-  "name": "aula02",
+  "name": "aula03",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Modulo5/aula02/build",
+  "homepage": "https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Modulo5/aula03/build",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",
