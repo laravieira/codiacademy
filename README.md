@@ -56,8 +56,14 @@ The structure of this summary is based the [Codi Academy](https://codiacademy.co
     - [Práticas em HTML+CSS+JS 📂](DesenvolvimentoWeb/FrontendCompleto/Practice2)
       - [Recriando o Duolingo (partes 1-3)](DesenvolvimentoWeb/FrontendCompleto/Practice2/Aula01-03) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Practice2/Aula01-03))
       - [Recriando a Netflix](DesenvolvimentoWeb/FrontendCompleto/Practice2/Aula04) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Practice2/Aula04))
-    - [Módulo 4: React 💫](DesenvolvimentoWeb/FrontendCompleto/Modulo4)
+    - [Módulo 4: Bootstrap 🕶](DesenvolvimentoWeb/FrontendCompleto/Modulo4)
       - [Aula 2: Fundamentos](DesenvolvimentoWeb/FrontendCompleto/Modulo4/Aula02) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Modulo4/Aula02))
+      - [Aula 3: Grid](DesenvolvimentoWeb/FrontendCompleto/Modulo4/Aula03) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Modulo4/Aula03))
+      - [Aula 4: Componentes: Botões](DesenvolvimentoWeb/FrontendCompleto/Modulo4/Aula04) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Modulo4/Aula04))
+      - [Aula 5: Componentes: Menu Suspenso](DesenvolvimentoWeb/FrontendCompleto/Modulo4/Aula05) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Modulo4/Aula05))
+      - [Aula 6: Componentes: Carrossel](DesenvolvimentoWeb/FrontendCompleto/Modulo4/Aula06) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Modulo4/Aula06))
+    - [Módulo 5: React 💫](DesenvolvimentoWeb/FrontendCompleto/Modulo5)
+      - [Aula 1: Introdução](DesenvolvimentoWeb/FrontendCompleto/Modulo5/aula01) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Modulo5/aula01/build))
 
 ## Rights Disclaimer
 All content on this repo is created by @laravieira follow the classes of the respective courses on [Codi Academy](https://codiacademy.com/).
