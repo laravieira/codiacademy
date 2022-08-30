@@ -5,6 +5,7 @@
   },
   "scripts": {
     "build": "run-p aula:*",
-    "aula:01": "npm run --prefix aula01 build"
+    "aula:01": "npm run --prefix aula01 build",
+    "aula:02": "npm run --prefix aula02 build"
   }
 }
