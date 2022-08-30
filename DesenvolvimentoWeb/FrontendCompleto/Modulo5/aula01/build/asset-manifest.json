@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/DesenvolvimentoWeb/FrontendCompleto/Modulo5/aula01/build/static/css/main.073c9b0a.css",
+    "main.js": "/DesenvolvimentoWeb/FrontendCompleto/Modulo5/aula01/build/static/js/main.386edbbb.js",
+    "static/js/787.069a6488.chunk.js": "/DesenvolvimentoWeb/FrontendCompleto/Modulo5/aula01/build/static/js/787.069a6488.chunk.js",
+    "static/media/logo.svg": "/DesenvolvimentoWeb/FrontendCompleto/Modulo5/aula01/build/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/DesenvolvimentoWeb/FrontendCompleto/Modulo5/aula01/build/index.html",
+    "main.073c9b0a.css.map": "/DesenvolvimentoWeb/FrontendCompleto/Modulo5/aula01/build/static/css/main.073c9b0a.css.map",
+    "main.386edbbb.js.map": "/DesenvolvimentoWeb/FrontendCompleto/Modulo5/aula01/build/static/js/main.386edbbb.js.map",
+    "787.069a6488.chunk.js.map": "/DesenvolvimentoWeb/FrontendCompleto/Modulo5/aula01/build/static/js/787.069a6488.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.386edbbb.js"
+  ]
+}
