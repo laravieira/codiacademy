@@ -1,8 +1,14 @@
+import Nav from 'Component/Nav';
 import './App.style.css';
 
 const App = () => {
   return (
-    <div></div>
+    <div className='App'>
+      <Nav/>
+      <main className='App-content'>
+        <span>Empty</span>
+      </main>
+    </div>
   );
 }
 
