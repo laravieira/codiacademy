@@ -9,6 +9,6 @@
     "aula:01": "npm run --prefix aula01 build",
     "aula:02": "npm run --prefix aula02 build",
     "aula:03": "npm run --prefix aula03 build",
-    "aula:04": "npm run --prefix aula04 build"
+    "aula:04-14": "npm run --prefix aula04-14 build"
   }
 }

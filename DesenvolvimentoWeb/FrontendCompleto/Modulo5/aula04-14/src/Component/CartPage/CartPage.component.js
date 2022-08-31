@@ -4,21 +4,21 @@ import Item from "Component/Item";
 
 function CartPage({ items, onAddItem, onRemoveItem }) {
     return (
-        <ul className="ItemPage-items">
+        <ul className="CartPage-items">
             {items.map(item => (
-                <li key={ item.id } className="ItemPage-item">
+                <li key={ item.id } className="CartPage-item">
                     <Item item={ item }>
-                        <div className="CartItem-controls">
-                            <button className="CartItem-removeItem" onClick={ () => onRemoveItem(item) }>-</button>
-                            <span className="CartItem-count">{ item.count }</span>
-                            <button className="CartItem-addItem" onClick={ () => onAddItem(item) }>+</button>
+                        <div className="CartPage-controls">
+                            <button className="CartPage-removeItem" onClick={ () => onRemoveItem(item) }>-</button>
+                            <span className="CartPage-count">{ item.count }</span>
+                            <button className="CartPage-addItem" onClick={ () => onAddItem(item) }>+</button>
                         </div>
                     </Item>
                 </li>
             ))}
         </ul>
     );
-};
+}
 
 CartPage.propTypes = {
     items: PropTypes.array.isRequired,
