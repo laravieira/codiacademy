@@ -1,7 +1,7 @@
 import './Item.style.css';
 import PropTypes from "prop-types";
 
-function Item({ item, onAddToCart }) {
+function Item({ item, children }) {
     return (
         <div className="Item">
             <div className="Item-left">
@@ -11,15 +11,14 @@ function Item({ item, onAddToCart }) {
             </div>
             <div className="Item-right">
                 <div className="Item-price">R$: { item.price }</div>
-                <div><button className="Item-addToCart" onClick={ onAddToCart }>Adicionar ao carrinho</button></div>
+                <div>{ children }</div>
             </div>
         </div>
     );
 }
 
 Item.propTypes = {
-    item: PropTypes.object.isRequired,
-    onAddToCart: PropTypes.func.isRequired
+    item: PropTypes.object.isRequired
 };
 
 export default Item;
