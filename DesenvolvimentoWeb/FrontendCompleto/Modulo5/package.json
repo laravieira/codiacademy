@@ -1,5 +1,5 @@
 {
-  "homepage": "https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Modulo5/aula03/build",
+  "homepage": "https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Modulo5/aula/build",
   "dependencies": {
     "create-react-app": "^5.0.1",
     "npm-run-all": "^4.1.5"
@@ -9,6 +9,7 @@
     "aula:01": "npm run --prefix aula01 build",
     "aula:02": "npm run --prefix aula02 build",
     "aula:03": "npm run --prefix aula03 build",
-    "aula:04-14": "npm run --prefix aula04-14 build"
+    "aula:04-14": "npm run --prefix aula04-14 build",
+    "aula:15-20": "npm run --prefix aula15-20 build"
   }
 }

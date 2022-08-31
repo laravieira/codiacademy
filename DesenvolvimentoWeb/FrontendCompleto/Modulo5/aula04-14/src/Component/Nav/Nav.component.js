@@ -1,5 +1,5 @@
 function NavComponent({ activeTab, onTabChange }) {
-    const itemClass = (tabName) => `App-nav-item ${ activeTab === tabName ? 'selected': '' }`;
+    const itemClass = (tabName) => `AppComponent-nav-item ${ activeTab === tabName ? 'selected': '' }`;
 
     return (
       <nav className="App-nav">
