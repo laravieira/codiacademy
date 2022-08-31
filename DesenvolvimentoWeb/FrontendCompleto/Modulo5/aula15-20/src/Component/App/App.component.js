@@ -1,13 +1,27 @@
-import './App.style.css';
+import Wrapper from 'Component/Wrapper';
+import Screen from 'Component/Screen';
+import ButtonBox from 'Component/ButtonBox';
+import Button from 'Component/Button';
+import { BUTTONS_LAYOUT_VALUES } from './App.config';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>The begin of a Calculator. 🧮</p>
-      </header>
-    </div>
-  );
+    const renderButton = (btn, i) => {
+        return (
+            <Button key={ i }
+                    className={ btn === '=' ? 'equals' : '' }
+                    value={ btn }
+                    onClick={ () => console.log(`${ btn } clicked!`) } />
+        );
+    }
+
+    return (
+        <Wrapper>
+            <Screen value="0" />
+            <ButtonBox>
+                { BUTTONS_LAYOUT_VALUES.flat().map(renderButton) }
+            </ButtonBox>
+        </Wrapper>
+    );
 }
 
 export default App;
