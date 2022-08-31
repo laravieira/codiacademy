@@ -1,3 +1,5 @@
+import Doll from './Doll.js';
+
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(75, window.innerWidth/window.innerHeight, .1, 1000);
 const renderer = new THREE.WebGLRenderer();
@@ -5,12 +7,11 @@ const renderer = new THREE.WebGLRenderer();
 renderer.setSize(window.innerWidth, window.innerHeight);
 document.body.appendChild(renderer.domElement);
 
-const loader = new THREE.GLTFLoader();
-loader.load('assets/model/doll/scene.gltf', function (gltf) {
-    scene.add(gltf.scene);
-    gltf.scene.scale.set(.4, .4, .4);
-    gltf.scene.position.set(0, -1, 0);
-});
+let doll = new Doll(scene);
+
+setTimeout(() => {
+    doll.turnBackward();
+}, 1000);
 
 const light = new THREE.AmbientLight(0xDDDDDD);
 scene.add(light);
