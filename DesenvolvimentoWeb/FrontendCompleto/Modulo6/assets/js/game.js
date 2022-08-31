@@ -13,9 +13,7 @@ let doll = new Doll(scene);
 let tree = new Tree(scene);
 let player = new Player(scene);
 
-setTimeout(() => {
-    doll.turnBackward();
-}, 1000);
+doll.start();
 
 const light = new THREE.AmbientLight(0xDDDDDD);
 scene.add(light);

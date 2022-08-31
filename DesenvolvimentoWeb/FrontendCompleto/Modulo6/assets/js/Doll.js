@@ -11,6 +11,7 @@ class Doll {
         model.scene.position.set(0, -1, 0);
         this.doll = model.scene;
         scene.add(this.doll);
+        this.start();
     }
 
     turnBackward() {
@@ -25,6 +26,20 @@ class Doll {
             y: 0,
             duration: .3
         });
+    }
+
+    async start() {
+        if(this.doll === undefined)
+            return;
+        this.turnBackward();
+        await this.delay(Math.random() * 1000 + 1000);
+        this.turnForward();
+        await this.delay(Math.random() * 1000 + 1000);
+        await this.start();
+    }
+
+    delay(ms) {
+        return new Promise(resolve => setTimeout(resolve, ms));
     }
 }
 
