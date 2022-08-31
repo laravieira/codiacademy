@@ -1,4 +1,4 @@
-function NavComponent({activeTab, onTabChange}) {
+function NavComponent({ activeTab, onTabChange }) {
     const itemClass = (tabName) => `App-nav-item ${ activeTab === tabName ? 'selected': '' }`;
 
     return (
