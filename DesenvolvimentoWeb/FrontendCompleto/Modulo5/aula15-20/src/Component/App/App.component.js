@@ -4,19 +4,19 @@ import ButtonBox from 'Component/ButtonBox';
 import Button from 'Component/Button';
 import { BUTTONS_LAYOUT_VALUES } from './App.config';
 
-function App() {
+function AppComponent({ calc, onButtonClick }) {
     const renderButton = (btn, i) => {
         return (
             <Button key={ i }
                     className={ btn === '=' ? 'equals' : '' }
                     value={ btn }
-                    onClick={ () => console.log(`${ btn } clicked!`) } />
+                    onClick={ onButtonClick(btn) } />
         );
     }
 
     return (
         <Wrapper>
-            <Screen value="0" />
+            <Screen value={ calc.num ? calc.num : calc.res }  />
             <ButtonBox>
                 { BUTTONS_LAYOUT_VALUES.flat().map(renderButton) }
             </ButtonBox>
@@ -24,4 +24,4 @@ function App() {
     );
 }
 
-export default App;
+export default AppComponent;
