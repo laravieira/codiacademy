@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/DesenvolvimentoWeb/FrontendCompleto/Modulo5/aula04-14/build/static/css/main.5d4740ee.css",
-    "main.js": "/DesenvolvimentoWeb/FrontendCompleto/Modulo5/aula04-14/build/static/js/main.134bc821.js",
+    "main.js": "/DesenvolvimentoWeb/FrontendCompleto/Modulo5/aula04-14/build/static/js/main.31b5ec71.js",
     "index.html": "/DesenvolvimentoWeb/FrontendCompleto/Modulo5/aula04-14/build/index.html",
     "main.5d4740ee.css.map": "/DesenvolvimentoWeb/FrontendCompleto/Modulo5/aula04-14/build/static/css/main.5d4740ee.css.map",
-    "main.134bc821.js.map": "/DesenvolvimentoWeb/FrontendCompleto/Modulo5/aula04-14/build/static/js/main.134bc821.js.map"
+    "main.31b5ec71.js.map": "/DesenvolvimentoWeb/FrontendCompleto/Modulo5/aula04-14/build/static/js/main.31b5ec71.js.map"
   },
   "entrypoints": [
     "static/css/main.5d4740ee.css",
-    "static/js/main.134bc821.js"
+    "static/js/main.31b5ec71.js"
   ]
 }
