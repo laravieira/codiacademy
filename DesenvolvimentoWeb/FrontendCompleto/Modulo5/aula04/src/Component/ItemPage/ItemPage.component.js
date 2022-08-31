@@ -14,11 +14,11 @@ function ItemPage({ items, onAddToCart }) {
             ))}
         </ul>
     );
-}
+};
 
 ItemPage.propTypes = {
     items: PropTypes.array.isRequired,
     onAddToCart: PropTypes.func.isRequired
-}
+};
 
 export default ItemPage;

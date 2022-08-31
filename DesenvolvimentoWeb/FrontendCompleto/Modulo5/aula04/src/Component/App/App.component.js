@@ -14,27 +14,40 @@ const App = () => {
       setCart(prevCart => [...prevCart, item]);
     };
 
+    const removeFromCart = (item) => {
+      let index = cart.findIndex(i => i.id === item.id);
+      if(index >= 0)
+          setCart(cart => {
+              const copy = [...cart];
+              copy.splice(index, 1);
+              return copy;
+          });
+    };
+
     return (
         <div className="App">
           <Nav activeTab={ activeTab } onTabChange={ setActiveTab }/>
           <main className="App-content">
               <Content tab={ activeTab }
                        onAddToCart={ addToCart }
-                       cart={ summarizeCart(cart) }/>
+                       cart={ summarizeCart(cart) }
+                       onRemoveItem={ removeFromCart }/>
           </main>
         </div>
     );
 };
 
-const Content = ({ tab, onAddToCart, cart }) => {
+const Content = ({ tab, onAddToCart, cart, onRemoveItem }) => {
   switch (tab) {
       case 'items':
           return <ItemPage items={ items } onAddToCart={ onAddToCart }/>;
       case 'cart':
-          return <CartPage items={ cart }/>;
+          return <CartPage items={ cart }
+                           onAddItem={ onAddToCart }
+                           onRemoveItem={ onRemoveItem }/>;
       default:
           break;
-  };
+  }
 };
 
 const summarizeCart = (cart) => {
@@ -42,7 +55,7 @@ const summarizeCart = (cart) => {
         summary[item.id] = summary[item.id] || { ...item, count: 0 };
         summary[item.id].count++;
         return summary;
-    });
+    }, {});
 
     return Object.values(groupItems);
 };

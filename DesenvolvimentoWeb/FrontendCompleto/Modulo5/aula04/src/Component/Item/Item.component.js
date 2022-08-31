@@ -15,7 +15,7 @@ function Item({ item, children }) {
             </div>
         </div>
     );
-}
+};
 
 Item.propTypes = {
     item: PropTypes.object.isRequired
