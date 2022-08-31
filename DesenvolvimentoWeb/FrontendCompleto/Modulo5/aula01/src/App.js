@@ -12,4 +12,4 @@ function AppComponent() {
   );
 }
 
-export default App;
+export default AppComponent;

@@ -6,7 +6,7 @@ import { items } from 'Storage/static-data';
 
 import './App.style.css';
 
-const AppComponent = () => {
+const App = () => {
     const [activeTab, setActiveTab] = useState('items');
     const [cart, setCart] = useState([]);
 
