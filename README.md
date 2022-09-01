@@ -86,21 +86,21 @@ The structure of this summary is based the [Codi Academy](https://codiacademy.co
     - [] Módulo 8: Next Js ⚡
     - [] Módulo 9: jQuery 🎯
     - [] Módulo 10: Angular 🔑
-  - Bootcamp Flexbox
-    - [x] Semana 1: Introdução ao Flexbox
-      - [x] Apresentando Flexbox CSS
-      - [x] Flex contêiner e flex itens
-      - [x] Flex Direction
-      - [x] Flex Wrap
-      - [x] Flex Flow
-      - [x] Justify-content
-    - [x] Semana 2:
-      - [x] align-items
-      - [x] Align-content
-      - [x] Flex-grow
-      - [x] Flex-basis
-      - [x] Flex-shrink
-      - [x] Align-self
+  - [Bootcamp Flexbox](DesenvolvimentoWeb/BootcampFlexbox)
+    - [Semana 1: Introdução ao Flexbox](DesenvolvimentoWeb/BootcampFlexbox/Semana1)
+      - [Apresentando Flexbox CSS](DesenvolvimentoWeb/BootcampFlexbox/Semana1/Aula01) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/BootcampFlexbox/Semana1/Aula01))
+      - [Flex contêiner e flex itens](DesenvolvimentoWeb/BootcampFlexbox/Semana1/Aula02) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/BootcampFlexbox/Semana1/Aula02))
+      - [Flex Direction](DesenvolvimentoWeb/BootcampFlexbox/Semana1/Aula03) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/BootcampFlexbox/Semana1/Aula03))
+      - [Flex Wrap](DesenvolvimentoWeb/BootcampFlexbox/Semana1/Aula04) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/BootcampFlexbox/Semana1/Aula04))
+      - [Flex Flow](DesenvolvimentoWeb/BootcampFlexbox/Semana1/Aula05) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/BootcampFlexbox/Semana1/Aula05))
+      - [Justify-content](DesenvolvimentoWeb/BootcampFlexbox/Semana1/Aula06) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/BootcampFlexbox/Semana1/Aula06))
+    - [Semana 2:](DesenvolvimentoWeb/BootcampFlexbox/Semana2)
+      - [align-items](DesenvolvimentoWeb/BootcampFlexbox/Semana2/Aula01) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/BootcampFlexbox/Semana2/Aula01))
+      - [Align-content](DesenvolvimentoWeb/BootcampFlexbox/Semana2/Aula02) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/BootcampFlexbox/Semana2/Aula02))
+      - [Flex-grow](DesenvolvimentoWeb/BootcampFlexbox/Semana2/Aula03) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/BootcampFlexbox/Semana2/Aula03))
+      - [Flex-basis](DesenvolvimentoWeb/BootcampFlexbox/Semana2/Aula04) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/BootcampFlexbox/Semana2/Aula04))
+      - [Flex-shrink](DesenvolvimentoWeb/BootcampFlexbox/Semana2/Aula05) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/BootcampFlexbox/Semana2/Aula05))
+      - [Align-self](DesenvolvimentoWeb/BootcampFlexbox/Semana2/Aula06) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/BootcampFlexbox/Semana2/Aula06))
     - [] Semana 3:
       - [] Aula prática: criando o Codi News
 
