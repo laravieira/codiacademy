@@ -22,9 +22,10 @@ class Game {
         this.renderer.setSize(window.innerWidth, window.innerHeight);
         document.body.appendChild(this.renderer.domElement);
 
-        this.doll = new Doll(Game.scene);
-        this.tree = new Tree(Game.scene);
-        this.player = new Player(Game.scene);
+        this.doll = new Doll();
+        this.tree = new Tree();
+        this.player = new Player();
+
         const light = new THREE.AmbientLight(0xDDDDDD);
         Game.scene.add(light);
 

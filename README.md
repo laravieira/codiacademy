@@ -68,6 +68,7 @@ The structure of this summary is based the [Codi Academy](https://codiacademy.co
       - [Aula 3: JSX](DesenvolvimentoWeb/FrontendCompleto/Modulo5/aula03) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Modulo5/aula03/build))
       - [Aulas 4-14: PLP & Cart pages](DesenvolvimentoWeb/FrontendCompleto/Modulo5/aula04-14) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Modulo5/aula04-14/build))
       - [Aulas 15-20: Calculator](DesenvolvimentoWeb/FrontendCompleto/Modulo5/aula15-20) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Modulo5/aula15-20/build))
+    - [Módulo 6: Three JS 🎮](DesenvolvimentoWeb/FrontendCompleto/Modulo6) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Modulo6))
 
 ## Rights Disclaimer
 All content on this repo is created by @laravieira follow the classes of the respective courses on [Codi Academy](https://codiacademy.com/).
