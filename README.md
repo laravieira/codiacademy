@@ -69,6 +69,20 @@ The structure of this summary is based the [Codi Academy](https://codiacademy.co
       - [Aulas 4-14: PLP & Cart pages](DesenvolvimentoWeb/FrontendCompleto/Modulo5/aula04-14) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Modulo5/aula04-14/build))
       - [Aulas 15-20: Calculator](DesenvolvimentoWeb/FrontendCompleto/Modulo5/aula15-20) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Modulo5/aula15-20/build))
     - [Módulo 6: Three JS 🎮](DesenvolvimentoWeb/FrontendCompleto/Modulo6) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Modulo6))
+    - [Módulo 7: Vue Js 💊](DesenvolvimentoWeb/FrontendCompleto/Modulo7)
+      - [Aula 1: Introdução](DesenvolvimentoWeb/FrontendCompleto/Module7/aula01) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Module7/aula01))
+      - [Aula 2: Instâncias](DesenvolvimentoWeb/FrontendCompleto/Module7/aula02) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Module7/aula02))
+      - [Aula 3: Condicionais](DesenvolvimentoWeb/FrontendCompleto/Module7/aula03) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Module7/aula03))
+      - [Aula 4: Loops](DesenvolvimentoWeb/FrontendCompleto/Module7/aula04) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Module7/aula04))
+      - [Aula 5: Manipulação de Eventos](DesenvolvimentoWeb/FrontendCompleto/Module7/aula05) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Module7/aula05))
+      - [Aula 6: Métodos](DesenvolvimentoWeb/FrontendCompleto/Module7/aula06) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Module7/aula06))
+      - [Aula 7: Slider](DesenvolvimentoWeb/FrontendCompleto/Module7/aula007) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Module7/aula07))
+      - [Aula 8: Componentes: Introdução](DesenvolvimentoWeb/FrontendCompleto/Module7/aula008) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Module7/aula08))
+      - [Aula 9: Componentes: Modelo XT](DesenvolvimentoWeb/FrontendCompleto/Module7/aula09) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Module7/aula09))
+      - [Aula 10: Componentes: Raiz única](DesenvolvimentoWeb/FrontendCompleto/Module7/aula10) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Module7/aula10))
+      - [Aula 11: Props](DesenvolvimentoWeb/FrontendCompleto/Module7/aula11) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Module7/aula11))
+      - [Aula 12-13: Avançando em Props (partes 1-2)](DesenvolvimentoWeb/FrontendCompleto/Module7/aula12-13) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Module7/aula12-13))
+      - [Aula 14: Componentes Globais e Locais](DesenvolvimentoWeb/FrontendCompleto/Module7/aula14) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Module7/aula14))
 
 ## Rights Disclaimer
 All content on this repo is created by @laravieira follow the classes of the respective courses on [Codi Academy](https://codiacademy.com/).
