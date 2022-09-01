@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Módulo 6: Aula 01</title>
+</head>
+<body>
+    <div id="app">{{ message }}</div>
+    <script src="https://unpkg.com/vue@latest"></script>
+    <script>
+        const { createApp } = Vue
+
+        createApp({
+            data() {
+                return {
+                    message: 'Hello Vue!'
+                }
+            }
+        }).mount('#app')
+    </script>
+</body>
+</html>
