@@ -5,21 +5,19 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Módulo 6: Aula 02</title>
+    <title>Módulo 6: Aula 03</title>
 </head>
 <body>
     <div id="app">
-        <p>Meu nome é: {{ name }}</p>
-        <p>Eu tenho {{ age }} anos</p>
-        <p>Eu estou aprendendo Vue na Codi Academy</p>
+        <p v-if="grade >= 60">O aluno foi Aprovado</p>
+        <p v-else>O aluno foi Reprovado</p>
     </div>
     <script src="https://unpkg.com/vue@latest"></script>
     <script>
-        var vue = Vue.createApp({
+        Vue.createApp({
             data() {
                 return {
-                    name: 'Lara',
-                    age: 24
+                    grade: 59.9
                 }
             }
         }).mount('#app');
