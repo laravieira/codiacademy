@@ -8,19 +8,21 @@
     <title>Módulo 6: Aula 01</title>
 </head>
 <body>
-    <div id="app">{{ message }}</div>
-
+    <div id="app">
+        <p>Meu nome é: {{ name }}</p>
+        <p>Eu tenho {{ age }} anos</p>
+        <p>Eu estou aprendendo Vue na Codi Academy</p>
+    </div>
     <script src="https://unpkg.com/vue@latest"></script>
     <script>
-        const { createApp } = Vue
-
-        createApp({
+        var vue = Vue.createApp({
             data() {
                 return {
-                    message: 'Hello Vue!'
+                    name: 'Lara',
+                    age: 24
                 }
             }
-        }).mount('#app')
+        }).mount('#app');
     </script>
 </body>
 </html>
