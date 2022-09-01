@@ -83,6 +83,26 @@ The structure of this summary is based the [Codi Academy](https://codiacademy.co
       - [Aula 11: Props](DesenvolvimentoWeb/FrontendCompleto/Modulo7/Aula11) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Modulo7/Aula11))
       - [Aula 12-13: Avançando em Props (partes 1-2)](DesenvolvimentoWeb/FrontendCompleto/Modulo7/Aula12-13) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Modulo7/Aula12-13))
       - [Aula 14: Componentes Globais e Locais](DesenvolvimentoWeb/FrontendCompleto/Modulo7/Aula14) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/FrontendCompleto/Modulo7/Aula14))
+    - [] Módulo 8: Next Js ⚡
+    - [] Módulo 9: jQuery 🎯
+    - [] Módulo 10: Angular 🔑
+  - Bootcamp Flexbox
+    - [x] Semana 1: Introdução ao Flexbox
+      - [x] Apresentando Flexbox CSS
+      - [x] Flex contêiner e flex itens
+      - [x] Flex Direction
+      - [x] Flex Wrap
+      - [x] Flex Flow
+      - [x] Justify-content
+    - [x] Semana 2:
+      - [x] align-items
+      - [x] Align-content
+      - [x] Flex-grow
+      - [x] Flex-basis
+      - [x] Flex-shrink
+      - [x] Align-self
+    - [] Semana 3:
+      - [] Aula prática: criando o Codi News
 
 ## Rights Disclaimer
 All content on this repo is created by @laravieira follow the classes of the respective courses on [Codi Academy](https://codiacademy.com/).
