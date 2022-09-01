@@ -1,0 +1,66 @@
+:root {
+    --bg-color: #141617;
+    --back-color: #261b31;
+    --primary-color: #662d91;
+    --secondary-color: #462562;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: var(--bg-color);
+}
+
+body {
+    margin: 30px auto 90px;
+    max-width: 600px;
+}
+
+h2 {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 24px;
+    margin: 36px 20px 0;
+    color: var(--primary-color);
+}
+
+.flex {
+    background: transparent;
+    width: 100%;
+    margin: 0 10px;
+    padding: 20px;
+    height: 95px;
+    display: flex;
+    position: relative;
+}
+
+.flex::before {
+    content: '';
+    position: absolute;
+    background: var(--back-color);
+    border-radius: 7px;
+    inset: 10px -10px -10px 10px;
+}
+
+.flex::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border: 3px solid var(--primary-color);
+    border-radius: 7px;
+}
+
+.flex div {
+    background: var(--secondary-color);
+    border: 3px solid var(--primary-color);
+    border-radius: 7px;
+    height: 100%;
+    width: 120px;
+    z-index: 1;
+}
+
+.flex div:not(:last-child):not(:first-child) {
+    margin: 0 10px;
+    width: 60px;
+}
