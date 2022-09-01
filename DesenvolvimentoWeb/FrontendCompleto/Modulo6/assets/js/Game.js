@@ -6,6 +6,7 @@ class Game {
     static WAITING = 0;
     static PLAYING = 1;
     static FINISHED = 2;
+    static LOADING = 3;
 
     static scene = new THREE.Scene();
 
@@ -15,7 +16,7 @@ class Game {
 
         this.text = document.querySelector('.text');
         this.timeLimit = 30;
-        this.gameStatus = Game.WAITING;
+        this.gameStatus = Game.LOADING;
 
         this.renderer = new THREE.WebGLRenderer();
         this.renderer.setClearColor(0x8601AF, 1);
@@ -34,6 +35,13 @@ class Game {
     }
 
     async start() {
+        while (Game.scene.children.length < 4) {
+            const percentLoaded = Game.scene.children.length / 4 * 100
+            this.text.innerText = `Loading at ${ percentLoaded }%`;
+            await delay(500);
+        }
+        this.gameStatus = Game.WAITING;
+
         await delay(500);
         this.text.innerText = 'Começando em 3';
         await delay(500);
