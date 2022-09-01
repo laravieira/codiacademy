@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootcamp Flexbox: Aula 11</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <h2>flex-shrink: 1<br>flex-shrink: 2</h2>
+    <div class="flex">
+        <div style="flex-shrink: 1">A</div>
+        <div style="flex-shrink: 2">B</div>
+        <div style="flex-shrink: 1">C</div>
+        <div style="flex-shrink: 1">D</div>
+    </div>
+
+    <h2>flex-shrink: 0</h2>
+    <div class="flex">
+        <div style="flex-shrink: 0">A</div>
+        <div style="flex-shrink: 0">B</div>
+        <div style="flex-shrink: 0">C</div>
+        <div style="flex-shrink: 0">D</div>
+    </div>
+
+    <h2>order (3, unset, 4, 2)</h2>
+    <div class="flex">
+        <div style="flex-grow: 1; order: 3;">A</div>
+        <div style="flex-grow: 1">B</div>
+        <div style="flex-grow: 1; order: 4;">C</div>
+        <div style="flex-grow: 1; order: 2;">D</div>
+    </div>
+
+    <h2>order (2, 4, 2, -1)</h2>
+    <div class="flex">
+        <div style="flex-grow: 1; order: 2;">A</div>
+        <div style="flex-grow: 1; order: 4;">B</div>
+        <div style="flex-grow: 1; order: 2;">C</div>
+        <div style="flex-grow: 1; order: -1;">D</div>
+    </div>
+
+    <h2>order (2, unset, 4, 2)</h2>
+    <div class="flex">
+        <div style="flex-grow: 1; order: 2;">A</div>
+        <div style="flex-grow: 1">B</div>
+        <div style="flex-grow: 1; order: 4;">C</div>
+        <div style="flex-grow: 1; order: 2;">D</div>
+    </div>
+
+    <h2>order (3, 4, 2, -1)</h2>
+    <div class="flex">
+        <div style="flex-grow: 1; order: 3;">A</div>
+        <div style="flex-grow: 1; order: 4;">B</div>
+        <div style="flex-grow: 1; order: 2;">C</div>
+        <div style="flex-grow: 1; order: -1;">D</div>
+    </div>
+</body>
+</html>
