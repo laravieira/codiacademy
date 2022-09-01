@@ -1,17 +1,19 @@
+import Game, { delay } from './Game.js';
+
 class Doll {
     static MODEL_PATH = 'assets/model/doll/scene.gltf';
 
-    constructor(scene) {
+    constructor() {
         const loader = new THREE.GLTFLoader();
-        loader.load(Doll.MODEL_PATH, (model) => this.onModelLoad(model, scene));
+        loader.load(Doll.MODEL_PATH, (model) => this.onModelLoad(model));
+        this.isLooking = false;
     }
 
-    onModelLoad(model, scene) {
+    onModelLoad(model) {
         model.scene.scale.set(.4, .4, .4);
-        model.scene.position.set(0, -1, 0);
+        model.scene.position.set(0, -1, -10);
         this.doll = model.scene;
-        scene.add(this.doll);
-        this.start();
+        Game.scene.add(this.doll);
     }
 
     turnBackward() {
@@ -19,27 +21,25 @@ class Doll {
             y: -3.15,
             duration: 1
         });
+        setTimeout(() => this.isLooking = false, 200);
     }
 
     turnForward() {
         gsap.to(this.doll.rotation, {
             y: 0,
-            duration: .3
+            duration: .4
         });
+        setTimeout(() => this.isLooking = true, 380);
     }
 
-    async start() {
+    async update() {
         if(this.doll === undefined)
             return;
         this.turnBackward();
-        await this.delay(Math.random() * 1000 + 1000);
+        await delay(Math.random() * 3000 + 1000);
         this.turnForward();
-        await this.delay(Math.random() * 1000 + 1000);
-        await this.start();
-    }
-
-    delay(ms) {
-        return new Promise(resolve => setTimeout(resolve, ms));
+        await delay(3000);
+        await this.update();
     }
 }
 

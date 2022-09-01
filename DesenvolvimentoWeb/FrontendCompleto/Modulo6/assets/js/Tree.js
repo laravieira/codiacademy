@@ -1,16 +1,18 @@
+import Game from './Game.js';
+
 class Tree {
     static MODEL_PATH = 'assets/model/tree/scene.gltf';
 
-    constructor(scene) {
+    constructor() {
         const loader = new THREE.GLTFLoader();
-        loader.load(Tree.MODEL_PATH, (model) => this.onModelLoad(model, scene));
+        loader.load(Tree.MODEL_PATH, (model) => this.onModelLoad(model));
     }
 
-    onModelLoad(model, scene) {
+    onModelLoad(model) {
         model.scene.scale.set(16, 16, 16);
-        model.scene.position.set(0, -6, -12);
+        model.scene.position.set(0, -4, -23);
         this.tree = model.scene;
-        scene.add(this.tree);
+        Game.scene.add(this.tree);
     }
 }
 
