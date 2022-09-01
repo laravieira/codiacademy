@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Módulo 6: Aula 11</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="py-5">
+    <div class="container">
+        <div id="app" style="display: flex">
+            <property-card :title="property.title"
+                           :description="property.description"
+                           :image="property.image"
+                           v-for="property in properties">
+            </property-card>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/vue@latest"></script>
+
+    <script>
+        const app = Vue.createApp({
+            data() {
+                return {
+                    properties: [
+                        {
+                            title: 'Tv Analógica',
+                            description: '3x R$: 99,99',
+                            image: 'televisao.png'
+                        },
+                        {
+                            title: 'Celular Smartphone',
+                            description: '8x R$: 78,90',
+                            image: 'smartphone.png'
+                        },
+                        {
+                            title: 'Headphone',
+                            description: '3x R$: 100,00',
+                            image: 'headphone.png'
+                        },
+                        {
+                            title: 'Tabela Periódica',
+                            description: '2x R$: 50,00',
+                            image: 'periodic-table.png'
+                        }
+                    ]
+                }
+            }
+        });
+
+        app.component('property-card', {
+            props: ['title', 'description', 'image'],
+            template: `
+                <div class="card mx-2" style="width: 18rem">
+                  <img :src="'assets/img/' + image" class="card-img-top" :alt="title">
+                  <div class="card-body">
+                    <h5 class="card-title">{{ title }}</h5>
+                    <p class="card-text">{{ description }}</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                  </div>
+                </div>`,
+        });
+
+        app.mount('#app');
+    </script>
+</body>
+</html>
