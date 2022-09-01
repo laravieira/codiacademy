@@ -103,6 +103,9 @@ The structure of this summary is based the [Codi Academy](https://codiacademy.co
       - [Align-self](DesenvolvimentoWeb/BootcampFlexbox/Semana2/Aula06) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/BootcampFlexbox/Semana2/Aula06))
     - [] Semana 3:
       - [] Aula prática: criando o Codi News
+  - [JavaScript Avançado com Desenvolvimento de Games 🎮](DesenvolvimentoWeb/JavaScriptAvancado)
+    - [💻 Programação](DesenvolvimentoWeb/JavaScriptAvancado/Programacao)
+      - [Instalando o ambiente](DesenvolvimentoWeb/JavaScriptAvancado/Programacao/Aula01) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/JavaScriptAvancado/Programacao/Aula01))
 
 ## Rights Disclaimer
 All content on this repo is created by @laravieira follow the classes of the respective courses on [Codi Academy](https://codiacademy.com/).
