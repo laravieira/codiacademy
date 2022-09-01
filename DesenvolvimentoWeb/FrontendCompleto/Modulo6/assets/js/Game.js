@@ -42,13 +42,13 @@ class Game {
         }
         this.gameStatus = Game.WAITING;
 
-        await delay(500);
+        await delay(1000);
         this.text.innerText = 'Começando em 3';
-        await delay(500);
+        await delay(1000);
         this.text.innerText = 'Começando em 2';
-        await delay(500);
+        await delay(1000);
         this.text.innerText = 'Começando em 1';
-        await delay(500);
+        await delay(1000);
         this.text.innerText = 'VAI!';
 
         this.gameStatus = Game.PLAYING;
