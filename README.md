@@ -120,6 +120,7 @@ The structure of this summary is based the [Codi Academy](https://codiacademy.co
       - [Aula 12: Arrays](DesenvolvimentoWeb/JavaScriptAvancado/Programacao/Aula12) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/JavaScriptAvancado/Programacao/Aula12))
       - [Aula 13: Operações com Arrays](DesenvolvimentoWeb/JavaScriptAvancado/Programacao/Aula13) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/JavaScriptAvancado/Programacao/Aula13))
       - [Aula 14: Matrizes](DesenvolvimentoWeb/JavaScriptAvancado/Programacao/Aula14) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/JavaScriptAvancado/Programacao/Aula14))
+    - [🐍 Criação do game Snake](DesenvolvimentoWeb/JavaScriptAvancado/Snake) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/JavaScriptAvancado/Snake))
 
 ## Rights Disclaimer
 All content on this repo is created by @laravieira follow the classes of the respective courses on [Codi Academy](https://codiacademy.com/).
