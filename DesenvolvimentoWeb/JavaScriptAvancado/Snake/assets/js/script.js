@@ -1,6 +1,6 @@
 class Game {
     static GRID = 20;
-    static PERIOD = 280;
+    static PERIOD = 180;
     static COLOR_BLUE = '#3688be';
     static COLOR_GREEN = '#51ee52';
     static COLOR_DARK_GREEN = '#00F102';
@@ -10,7 +10,7 @@ class Game {
     position = { x: 10, y: 10 };
     velocity = { x: 0, y: 0 };
     food = { x: 0, y: 0 };
-    size = 100;
+    size = 0;
 
 
     constructor() {
