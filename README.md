@@ -105,7 +105,21 @@ The structure of this summary is based the [Codi Academy](https://codiacademy.co
       - [] Aula prática: criando o Codi News
   - [JavaScript Avançado com Desenvolvimento de Games 🎮](DesenvolvimentoWeb/JavaScriptAvancado)
     - [💻 Programação](DesenvolvimentoWeb/JavaScriptAvancado/Programacao)
-      - [Instalando o ambiente](DesenvolvimentoWeb/JavaScriptAvancado/Programacao/Aula00) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/JavaScriptAvancado/Programacao/Aula00))
+      - [Instalando o Ambiente](DesenvolvimentoWeb/JavaScriptAvancado/Programacao/Aula00) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/JavaScriptAvancado/Programacao/Aula00))
+      - [Aula 1: Variáveis](DesenvolvimentoWeb/JavaScriptAvancado/Programacao/Aula01) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/JavaScriptAvancado/Programacao/Aula01))
+      - [Aula 2: Operadores Aritméticos](DesenvolvimentoWeb/JavaScriptAvancado/Programacao/Aula02) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/JavaScriptAvancado/Programacao/Aula02))
+      - [Aula 3: Operadores Condicionais](DesenvolvimentoWeb/JavaScriptAvancado/Programacao/Aula03) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/JavaScriptAvancado/Programacao/Aula03))
+      - [Aula 4: IF e Else](DesenvolvimentoWeb/JavaScriptAvancado/Programacao/Aula04) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/JavaScriptAvancado/Programacao/Aula04))
+      - [Aula 5: Lógica Booleana](DesenvolvimentoWeb/JavaScriptAvancado/Programacao/Aula05) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/JavaScriptAvancado/Programacao/Aula05))
+      - [Aula 6: Funções](DesenvolvimentoWeb/JavaScriptAvancado/Programacao/Aula06) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/JavaScriptAvancado/Programacao/Aula06))
+      - [Aula 7: Objetos](DesenvolvimentoWeb/JavaScriptAvancado/Programacao/Aula07) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/JavaScriptAvancado/Programacao/Aula07))
+      - [Aula 8: Métodos](DesenvolvimentoWeb/JavaScriptAvancado/Programacao/Aula08) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/JavaScriptAvancado/Programacao/Aula08))
+      - [Aula 9: While](DesenvolvimentoWeb/JavaScriptAvancado/Programacao/Aula09) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/JavaScriptAvancado/Programacao/Aula09))
+      - [Aula 10: Continue e Break](DesenvolvimentoWeb/JavaScriptAvancado/Programacao/Aula10) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/JavaScriptAvancado/Programacao/Aula10))
+      - [Aula 11: For](DesenvolvimentoWeb/JavaScriptAvancado/Programacao/Aula11) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/JavaScriptAvancado/Programacao/Aula11))
+      - [Aula 12: Arrays](DesenvolvimentoWeb/JavaScriptAvancado/Programacao/Aula12) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/JavaScriptAvancado/Programacao/Aula12))
+      - [Aula 13: Operações com Arrays](DesenvolvimentoWeb/JavaScriptAvancado/Programacao/Aula13) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/JavaScriptAvancado/Programacao/Aula13))
+      - [Aula 14: Matrizes](DesenvolvimentoWeb/JavaScriptAvancado/Programacao/Aula14) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/JavaScriptAvancado/Programacao/Aula14))
 
 ## Rights Disclaimer
 All content on this repo is created by @laravieira follow the classes of the respective courses on [Codi Academy](https://codiacademy.com/).
