@@ -17,14 +17,11 @@ h1 {
 }
 
 .grid {
-    box-shadow: 0 0 30px -10px #000000;
-    border-radius: 10px;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
     justify-content: center;
     align-items: center;
-    width: 600px;
-    height: 300px;
     perspective: 500px;
 }
 
@@ -35,14 +32,15 @@ h1 {
     height: 130px;
     position: relative;
     background: #5eff4c;
-    transition: transform .8s;
+    transition: transform .5s;
     transform-style: preserve-3d;
     display: flex;
     justify-content: center;
     align-items: center;
+    user-select: none;
 }
 
-.card:active {
+.flip {
     transform: rotateY(180deg);
 }
 
@@ -76,7 +74,7 @@ h1 {
 .card span:first-of-type::before,
 .card span:last-of-type::after,
 .card span:last-of-type::before {
-    -webkit-text-stroke: 2px #000000;
+    -webkit-text-stroke: 1px #000000;
     position: absolute;
     display: flex;
     content: '\2605';
@@ -103,4 +101,8 @@ h1 {
 
 .card span:last-of-type::before {
     inset: auto auto 10px 10px;
+}
+
+.template {
+    display: none;
 }
