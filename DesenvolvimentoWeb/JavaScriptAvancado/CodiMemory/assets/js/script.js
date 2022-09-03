@@ -1,11 +1,16 @@
 class Game {
 
+    score = -1;
     cards = [];
+    pair = null;
+    chosen = [];
 
     constructor() {
         this.board = document.querySelector('.grid');
+        this.scoreboard = document.getElementById('scoreboard').querySelector('span');
         this.loadAssets();
         this.loadBoard();
+        this.updateScore();
     }
 
     loadAssets() {
@@ -34,11 +39,11 @@ class Game {
             card.setAttribute('key', key);
             card.querySelector('img').setAttribute('src', this.asset.paths[key]);
             const copy = card.cloneNode(true);
-            card.addEventListener('click', this.onCardClick.bind(this));
-            copy.addEventListener('click', this.onCardClick.bind(this));
+            card.onclick = this.onCardClick.bind(this);
+            copy.onclick = this.onCardClick.bind(this);
             this.cards.push(card, copy);
         }
-        this.shuffleArray(this.cards);
+        this.cards.sort(() => .5 - Math.random());
         this.cards.forEach((card) => this.board.appendChild(card));
     }
 
@@ -53,21 +58,40 @@ class Game {
             this.hideCard(card);
     }
 
+    updateScore() {
+        this.score++;
+        this.scoreboard.innerText = '' + this.score;
+
+        if(this.chosen.length === this.cards.length)
+            location.reload();
+    }
+
     showCard(card) {
         card.className = 'card flip';
+        if (this.pair === null)
+            this.pair = card;
+        else if (this.pair.getAttribute('key') === card.getAttribute('key')) {
+            console.debug('Match');
+            this.pair.onclick = null;
+            this.chosen.push(card);
+            this.chosen.push(this.pair);
+            this.pair = null;
+            card.onclick = null;
+            this.updateScore();
+        }else {
+            console.debug('Unmatch');
+            setTimeout(() => {
+                this.hideCard(this.pair);
+                this.pair = null;
+                this.hideCard(card);
+            }, 800);
+        }
     }
 
     hideCard(card) {
         card.className = 'card';
-    }
-
-    shuffleArray(array) {
-        for (var i = array.length - 1; i > 0; i--) {
-            var j = Math.floor(Math.random() * (i + 1));
-            var temp = array[i];
-            array[i] = array[j];
-            array[j] = temp;
-        }
+        if(this.pair === card)
+            this.pair = null;
     }
 }
 
