@@ -1,0 +1,106 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #171717;
+    padding: 50px;
+    margin: 0;
+    background: url(../img/background.png);
+}
+
+h1 {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 48px;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 15px #000000;
+}
+
+.grid {
+    box-shadow: 0 0 30px -10px #000000;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 300px;
+    perspective: 500px;
+}
+
+.card {
+    box-shadow: 0 0 30px -10px #000000;
+    border-radius: 10px;
+    width: 100px;
+    height: 130px;
+    position: relative;
+    background: #5eff4c;
+    transition: transform .8s;
+    transform-style: preserve-3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card:active {
+    transform: rotateY(180deg);
+}
+
+.card:before {
+    position: absolute;
+    display: flex;
+    content: '?';
+    justify-content: center;
+    align-items: center;
+    inset: 0;
+    font-family: "Times New Roman", serif;
+    font-weight: bolder;
+    font-size: 83px;
+    color: #AE5F3D;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    background: #FFBA4C;
+    border-radius: 10px;
+    -webkit-text-stroke: 2px #000000;
+}
+
+.card img {
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    width: 70%;
+    height: auto;
+    display: block;
+}
+
+.card span:first-of-type::after,
+.card span:first-of-type::before,
+.card span:last-of-type::after,
+.card span:last-of-type::before {
+    -webkit-text-stroke: 2px #000000;
+    position: absolute;
+    display: flex;
+    content: '\2605';
+    width: 10px;
+    height: 10px;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    font-size: 18px;
+    color: #AE5F3D;
+}
+
+.card span:first-of-type::after {
+    inset: 10px auto auto 10px;
+}
+
+.card span:first-of-type::before {
+    inset: 10px 10px auto auto;
+}
+
+.card span:last-of-type::after {
+    inset: auto 10px 10px auto;
+}
+
+.card span:last-of-type::before {
+    inset: auto auto 10px 10px;
+}
