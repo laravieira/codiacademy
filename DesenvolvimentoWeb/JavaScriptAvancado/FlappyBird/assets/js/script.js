@@ -1,5 +1,5 @@
 class Game {
-    static GRAVITY = 1.6;
+    static GRAVITY = 1.2;
     static VELOCITY = .7;
 
     static BIRD_FALLING = 0;
@@ -10,7 +10,7 @@ class Game {
     bird = {
         mode: Game.BIRD_FALLING,
         position: {
-            x: 33,
+            x: 100,
             y: 200
         },
         angle: .3
@@ -109,8 +109,14 @@ class Game {
         }
     }
 
+    renderScoreboard() {
+        this.context.fillStyle = '#000000';
+        this.context.font = '20px Verdana';
+        this.context.fillText('Placar: ' + this.score, 10, this.canvas.height - 20);
+    }
+
     flap() {
-        this.bird.position.y -= 26;
+        this.bird.position.y -= 30;
         this.bird.angle = .3;
         this.asset.bird_flap.cloneNode().play();
         this.bird.mode = Game.BIRD_FLAP_DOWN;
@@ -122,8 +128,15 @@ class Game {
         this.pipes.push({
             distance: this.canvas.width,
             aperture: Math.random() * 40 + 60,
-            height: Math.random() * 100 + 250
+            height: Math.random() * 100 + 250,
+            counted: false
         });
+    }
+
+    addScore() {
+        this.pipes[0].counted = true;
+        this.asset.score.cloneNode().play();
+        console.debug(++this.score);
     }
 
     onKeydown(event) {
@@ -148,7 +161,7 @@ class Game {
 
     updatePipe() {
         for(let pipe of this.pipes) {
-            pipe.distance -= Game.VELOCITY;
+            pipe.distance -= Game.VELOCITY + this.score/20;
 
         }
 
@@ -159,14 +172,47 @@ class Game {
             this.pipes.shift();
     }
 
+    updateScore() {
+        for (const pipe of this.pipes) {
+            // If bird collided with base or fly off screen
+            if (this.bird.position.y < 0 || this.bird.position.y + this.asset.bird_mid_flap.height > this.canvas.height - this.asset.base.height) {
+                console.debug('Out of the world');
+                location.reload();
+
+                // If bird is inside pipe's region
+            } else if (pipe.distance < this.bird.position.x + this.asset.bird_mid_flap.width
+                && pipe.distance + this.asset.pipe_green.width > this.bird.position.x) {
+
+                // If bird is inside pipes
+                if (this.bird.position.y < pipe.height - pipe.aperture
+                    || this.bird.position.y + this.asset.bird_mid_flap.height > pipe.height) {
+                    // Bird collision
+                    console.debug('Collision');
+                    location.reload();
+
+                    // If bird crossed the middle of the pipe
+                } else if (pipe.distance + this.asset.pipe_green.width / 2 < this.bird.position.x + this.asset.bird_mid_flap.width / 2) {
+
+                    // If this wasn't checked before
+                    if (!pipe.counted) {
+                        // Score ++
+                        this.addScore();
+                    }
+                }
+            }
+        }
+    }
+
     update() {
         if(this.asset.isLoaded === this.asset.length) {
             this.updateBird();
             this.updatePipe();
+            this.updateScore();
             this.renderCity();
             this.renderPipes()
-            this.renderBase();
             this.renderBird();
+            this.renderBase();
+            this.renderScoreboard();
         }
 
         requestAnimationFrame(this.update.bind(this));
@@ -211,5 +257,6 @@ function init() {
     const game = new Game();
     window.game = game;
     window.onkeydown = game.onKeydown.bind(game);
+    //window.onmousemove = (event) => {game.bird.position.y = event.y - 200; game.bird.angle = 0};
 }
 window.onload = init;
