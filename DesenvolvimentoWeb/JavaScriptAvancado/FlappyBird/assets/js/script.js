@@ -1,7 +1,6 @@
 class Game {
-    static SPACE_PEER_PIPE = 100;
-    static GRAVITY = 1.4;
-    static VELOCITY = 1;
+    static GRAVITY = 1.6;
+    static VELOCITY = .7;
 
     static BIRD_FALLING = 0;
     static BIRD_FLAP_UP = 1;
@@ -24,6 +23,7 @@ class Game {
         this.context = this.canvas.getContext('2d');
 
         this.loadAssets();
+        this.addPipe();
         this.update();
     }
 
@@ -79,6 +79,36 @@ class Game {
         this.context.restore();
     }
 
+    renderPipes() {
+        for(const pipe of this.pipes) {
+            this.context.save();
+            this.context.translate(
+                pipe.distance,
+                pipe.height
+            );
+            this.context.drawImage(
+                this.asset.pipe_green,
+                0,
+                0,
+                this.asset.pipe_green.width,
+                this.asset.pipe_green.height
+            );
+
+            this.context.translate(0, -pipe.aperture);
+            this.context.scale(-1, 1);
+            this.context.rotate(Math.PI);
+            this.context.drawImage(
+                this.asset.pipe_green,
+                0,
+                0,
+                this.asset.pipe_green.width,
+                this.asset.pipe_green.height
+            );
+
+            this.context.restore();
+        }
+    }
+
     flap() {
         this.bird.position.y -= 26;
         this.bird.angle = .3;
@@ -86,6 +116,14 @@ class Game {
         this.bird.mode = Game.BIRD_FLAP_DOWN;
         setTimeout(() => this.bird.mode = Game.BIRD_FLAP_UP, 100);
         setTimeout(() => this.bird.mode = Game.BIRD_FALLING, 210);
+    }
+
+    addPipe() {
+        this.pipes.push({
+            distance: this.canvas.width,
+            aperture: Math.random() * 40 + 60,
+            height: Math.random() * 100 + 250
+        });
     }
 
     onKeydown(event) {
@@ -108,10 +146,25 @@ class Game {
         this.bird.angle -= Game.GRAVITY / 150;
     }
 
+    updatePipe() {
+        for(let pipe of this.pipes) {
+            pipe.distance -= Game.VELOCITY;
+
+        }
+
+        if(this.pipes.at(-1).distance < this.canvas.width - this.asset.pipe_green.width * 3)
+            this.addPipe();
+
+        if(this.pipes[0].distance < 0 - this.asset.pipe_green.width)
+            this.pipes.shift();
+    }
+
     update() {
         if(this.asset.isLoaded === this.asset.length) {
             this.updateBird();
+            this.updatePipe();
             this.renderCity();
+            this.renderPipes()
             this.renderBase();
             this.renderBird();
         }
