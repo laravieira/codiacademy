@@ -154,6 +154,10 @@ class Game {
         }
     }
 
+    onClick() {
+        this.onKeydown({key: 'w'});
+    }
+
     updateBird() {
         this.bird.position.y += Game.GRAVITY;
         this.bird.angle -= Game.GRAVITY / 150;
@@ -257,6 +261,6 @@ function init() {
     const game = new Game();
     window.game = game;
     window.onkeydown = game.onKeydown.bind(game);
-    //window.onmousemove = (event) => {game.bird.position.y = event.y - 200; game.bird.angle = 0};
+    window.onclick = game.onClick.bind(game);
 }
 window.onload = init;
