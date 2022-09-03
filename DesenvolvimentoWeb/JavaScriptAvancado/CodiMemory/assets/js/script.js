@@ -63,7 +63,7 @@ class Game {
         this.scoreboard.innerText = '' + this.score;
 
         if(this.chosen.length === this.cards.length)
-            location.reload();
+            this.scoreboard.innerText = 'Ganhou';
     }
 
     showCard(card) {
@@ -75,15 +75,16 @@ class Game {
             this.pair.onclick = null;
             this.chosen.push(card);
             this.chosen.push(this.pair);
+            this.updateScore();
             this.pair = null;
             card.onclick = null;
-            this.updateScore();
         }else {
             console.debug('Unmatch');
+            const pair = this.pair;
             setTimeout(() => {
-                this.hideCard(this.pair);
-                this.pair = null;
+                this.hideCard(pair);
                 this.hideCard(card);
+                this.pair = null;
             }, 800);
         }
     }
