@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #171717;
+    padding: 30px;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 36px;
+    color: #DDDDDD;
+    text-shadow: 2px 2px 15px #000000;
+}
+
+canvas {
+    box-shadow: 0 0 30px 1px #000000;
+    max-height: 512px;
+    max-width: 288px;
+}
