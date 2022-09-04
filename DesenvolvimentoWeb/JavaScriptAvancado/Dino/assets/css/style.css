@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #171717;
+    padding: 50px;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 48px;
+    color: #DDDDDD;
+    text-shadow: 2px 2px 15px #000000;
+}
+
+.dino {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: url(../img/dino.png);
+    inset: auto auto 0 80px;
+}
+
+.obstacle {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: url(../img/cactus.png);
+    bottom: 0;
+}
+
+div#desert {
+    position: relative;
+    background: url(../img/bg.png) repeat-x;
+    /* Safari > 8 doesn't need -webkit prefix, too outdated to keep maintenance */
+    animation: slider-right .7s infinite linear;
+    height: 200px;
+    width: 100vw;
+}
+
+/* Safari > 8 doesn't need -webkit prefix, too outdated to keep maintenance */
+@keyframes slider-right {
+    from {
+        background-position: 521px;
+    }
+    to {
+        background-position: 0;
+    }
+}

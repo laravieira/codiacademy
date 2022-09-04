@@ -123,6 +123,7 @@ The structure of this summary is based the [Codi Academy](https://codiacademy.co
     - [🐍 Criação do game Snake](DesenvolvimentoWeb/JavaScriptAvancado/Snake) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/JavaScriptAvancado/Snake))
     - [🐦 Criação do game Flappy Bird](DesenvolvimentoWeb/JavaScriptAvancado/FlappyBird) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/JavaScriptAvancado/FlappyBird))
     - [🧠 Criação do game Codi Memory](DesenvolvimentoWeb/JavaScriptAvancado/CodiMemory) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/JavaScriptAvancado/CodiMemory))
+    - [🦖 Criação do game Dino](DesenvolvimentoWeb/JavaScriptAvancado/Dino) ([live](https://codi.laravieira.me/DesenvolvimentoWeb/JavaScriptAvancado/Dino))
 
 ## Rights Disclaimer
 All content on this repo is created by @laravieira follow the classes of the respective courses on [Codi Academy](https://codiacademy.com/).
