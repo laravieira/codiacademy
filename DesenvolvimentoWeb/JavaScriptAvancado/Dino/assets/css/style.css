@@ -3,13 +3,14 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #171717;
+    background: white;
     padding: 50px;
     margin: 0;
 }
 
-h1 {
+h2 {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-align: center;
     font-size: 48px;
     color: #DDDDDD;
     text-shadow: 2px 2px 15px #000000;
@@ -23,6 +24,12 @@ h1 {
     inset: auto auto 0 80px;
 }
 
+.grid {
+    position: absolute;
+    overflow: hidden;
+    inset: 0;
+}
+
 .obstacle {
     position: absolute;
     width: 60px;
@@ -31,13 +38,20 @@ h1 {
     bottom: 0;
 }
 
+.obstacle.moving {
+    animation: obstacle 2.5s linear;
+}
+
 div#desert {
     position: relative;
     background: url(../img/bg.png) repeat-x;
-    /* Safari > 8 doesn't need -webkit prefix, too outdated to keep maintenance */
-    animation: slider-right .7s infinite linear;
     height: 200px;
     width: 100vw;
+}
+div#desert.moving {
+    /* Safari > 8 doesn't need -webkit prefix, too outdated to keep maintenance */
+    animation: slider-right .7s infinite linear;
+
 }
 
 /* Safari > 8 doesn't need -webkit prefix, too outdated to keep maintenance */
@@ -47,5 +61,14 @@ div#desert {
     }
     to {
         background-position: 0;
+    }
+}
+
+@keyframes obstacle {
+    from {
+        left: 100%;
+    }
+    to {
+        left: -60px;
     }
 }
